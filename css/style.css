@@ -264,6 +264,7 @@ header {
 
 .intro {
     position: relative;
+    max-width: 1000px;
     margin: 0 auto;
 
 }
@@ -274,9 +275,7 @@ header {
     box-shadow: var(--bs);
 }
 
-/* .section__title--intro {
-    max-width: 700px;
-} */
+
 
 @media (min-width: 800px) {
     .intro {
