@@ -374,8 +374,9 @@ header {
 }
 
 .about-me .btn {
+    align-self: center;
     text-align: center;
-    width: 10rem;
+    max-width: 10rem;
 }
 
 @media (min-width: 600px) {
@@ -425,8 +426,10 @@ header {
 }
 
 .portfolio {
+    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    max-width: 1200px;
 }
 
 .portfolio__item {
